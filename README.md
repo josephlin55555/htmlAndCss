@@ -1,6 +1,7 @@
 # htmlAndCss  
 A static page that contains images, HTML, and CSS.  
-Runs on port 3000.
+Runs on port 3000.  
+Deployed to http://html-css.herokuapp.com/
 
 # Instructions  
 1) npm install  

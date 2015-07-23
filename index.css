@@ -1,3 +1,11 @@
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 html, body {
   height: 100%;
   margin: 0px;
@@ -18,8 +26,7 @@ html, body {
 .name {
   color: #22c1ee;
   font-size: 600%;
-  
-  width: 100%;
+
   position: absolute;
   top: 40%;
   left: 50%;
@@ -40,7 +47,6 @@ hr {
 
 .stanza {
   font-size: 600%;
-  width: 600%;
   color: #fdfcfc;
   
   position: absolute;
