@@ -1,0 +1,340 @@
+html, body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+  font-family: 'Open Sans';
+  color: #272729;
+}
+
+.start {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: #272729;
+  text-align: center;
+}
+
+.name {
+  color: #22c1ee;
+  font-size: 600%;
+  
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+hr {
+  border-color: #4d4d4d;
+  border-width: 1px;
+  width: 10%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.stanza {
+  font-size: 600%;
+  width: 600%;
+  color: #fdfcfc;
+  
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.extra {
+  font-size: 120%;
+  color: #22c1ee;
+  
+  width: 100%;
+  position: absolute;
+  top: 72%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.deadCenter {
+  height: 100%;
+  width: 100%;
+  background-color: #22c1ee;
+  text-align: center;
+}
+
+.deadBox {
+  border-radius: 2%;
+  font-size: 300%;
+  padding: 100px;
+  border: solid 2px;
+  color: #fdfcfc;
+  
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+}
+
+.triangle {
+  text-align: center;
+  height: 80%;
+  width: 100%;
+}
+
+.trianglePicture {
+  width: 0;
+  height: 0;
+  border-bottom: 350px solid #22c1ee;
+  border-right: 350px solid transparent;
+}
+
+.triangleQuote {
+  top: 75%;
+  position: relative;
+  transform: translateY(-50%);
+  font-size: 250%;
+}
+
+.rotation {
+  height: 100%;
+  width: 100%;
+  background-color: #272729;
+  text-align: center;
+}
+
+.rotationPicture {
+  height: 25%;
+  width: 100%;
+  
+  -webkit-animation: 1s rotate infinite linear;
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.rotationQuote {
+  color: #fdfcfc;
+  font-size: 250%;
+}
+
+.zoom {
+  height: 100%;
+  width: 100%;
+  background-color: #22c1ee;
+  text-align: center;
+}
+
+.zoomCircle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-color: #fdfcfc;
+  
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.zoomCircle:hover {
+  width: 300px;
+  height: 300px;
+}
+
+.zoomQuote {
+  font-size: 200%;
+  position: relative;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.grid {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.gridTitle {
+  font-size: 450%;
+  top: 10%;
+  position: relative;
+  transform: translateY(-50%);
+}
+
+.gridQuote {
+  font-size: 130%;
+  color: #22c1ee;
+  top: 5%;
+  position: relative;
+  transform: translateY(-50%);
+}
+
+.gridWrapper {
+  width: 100%;
+  top: 25%;
+  position: relative;
+  transform: translateY(-50%);
+}
+
+.box1 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  width: 15%;
+  display: inline-block;
+  border: solid #22c1ee 2px;
+  margin: 20px;
+  border-radius: 2%;
+}
+
+.box2 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  width: 15%;
+  display: inline-block;
+  border: solid #272729 2px;
+  margin: 20px;
+  border-radius: 2%;
+}
+
+.stanzaInput {
+  height: 100%;
+  width: 100%;  
+  position: relative;
+}
+
+.inputPicture {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.inputTitle {
+  color: #22c1ee;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  top: 15%;
+  font-size: 550%;
+}
+
+.inputContainer {
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  width: 50%;
+
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  border: solid 3px #272729;
+  padding: 50px;
+}
+
+.inputInput {
+  border: 0;
+  border-bottom: solid 1px #fdfcfc;
+  outline:none; /* prevents textbox highlight in chrome */
+
+  position: relative;
+  background: url(https://dff2h0hbfv6w4.cloudfront.net/images/bookme/stanza_logo_icon.svg) no-repeat scroll 0px 20px;
+  padding-left: 40px;
+  background-size: 50px 50px;
+
+  color: #22c1ee;
+  font-size: 30px;
+  width: 500px;
+
+  padding: 25px;
+  padding-left: 60px;
+}
+
+.experience {
+  height: 100%;
+  width: 100%;
+  background-color: #22c1ee;
+  position: relative;
+}
+
+.experienceCircle {
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  border: solid #fdfcfc 2px;
+
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.experienceNumber {
+  color: #fdfcfc;
+  font-size: 700%;
+
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.experienceQuote {
+  width: 100%;
+  font-size: 200%;
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.love {
+  height: 30%;
+  width: 100%;
+  text-align: center;
+}
+
+.loveQuote {
+  font-size: 8em;
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+}
+
+.lovePicture {
+  width: 9%;
+  height: 9%;
+}
+
+
+
+
+
+
+
+
+
